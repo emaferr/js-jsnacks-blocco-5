@@ -2,8 +2,10 @@
 
 // indicando per ognuna varietà peso e lunghezza.
 
-
 // Calcola quanto pesano tutte le zucchine.
+
+
+// _____________________________________________________  //
 
 
 // Genero una funzione che genera una parola casuale 
@@ -47,8 +49,6 @@ function numeroRandom(min, max) {
 
   var pesiZucchine = [] ;
 
-  var pesoTotaleZucchine = 0;
-
   var i = 0 ;
 
   while ( i < Zucchine.length ) {
@@ -63,6 +63,8 @@ function numeroRandom(min, max) {
   }
   
 //   Sommo i valori all'interno dell'array creato
+
+  var pesoTotaleZucchine = 0; 
 
   for (var i = 0; i < pesiZucchine.length; i++) {
 
